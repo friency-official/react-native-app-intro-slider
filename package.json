@@ -2,8 +2,8 @@
   "name": "react-native-app-intro-slider",
   "version": "4.0.7",
   "description": "Simple and configurable app introduction slider for react native",
-  "main": "./dist/index.js",
-  "types": "./dist/index.d.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
     "lint": "eslint 'src/**/*.{ts,tsx}'",
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jacse/react-native-app-intro-slider.git"
+    "url": "git+https://github.com/friency-official/react-native-app-intro-slider.git"
   },
   "keywords": [
     "swiper",
@@ -30,11 +30,11 @@
   "author": "Jacob Lauritzen <jacsebl@hotmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jacse/react-native-app-intro-slider/issues"
+    "url": "https://github.com/friency-official/react-native-app-intro-slider.git/issues"
   },
-  "homepage": "https://github.com/jacse/react-native-app-intro-slider",
+  "homepage": "https://github.com/friency-official/react-native-app-intro-slider.git",
   "files": [
-    "./dist/**/*"
+    "dist/**/*"
   ],
   "devDependencies": {
     "@react-native-community/eslint-config": "^1.0.0",
