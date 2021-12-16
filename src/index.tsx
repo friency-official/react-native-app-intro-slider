@@ -218,6 +218,11 @@ export default class AppIntroSlider<ItemT = any> extends React.Component<
                     key={i}
                     style={[
                       styles.dot,
+                      {
+                        width: (i + 1) * 5,
+                        height: (i + 1) * 5,
+                        borderRadius: (i + 1) * 2.5,
+                      },
                       this._rtlSafeIndex(i) === this.state.activeIndex
                         ? this.props.activeDotStyle
                         : this.props.dotStyle,
@@ -346,9 +351,6 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   dot: {
-    width: 10,
-    height: 10,
-    borderRadius: 5,
     marginHorizontal: 4,
   },
   leftButtonContainer: {
